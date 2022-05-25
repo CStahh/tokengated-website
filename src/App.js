@@ -16,7 +16,7 @@ const App = () => {
   const mintNft = async () => {
     try {
       setIsClaiming(true);
-      await nftDrop.claim(1);
+      await nftDrop.claim(6);
       setHasClaimedNFT(true);
     } catch (error) {
       setHasClaimedNFT(false);
